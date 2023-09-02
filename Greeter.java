@@ -14,7 +14,7 @@ public class Greeter {
   public String sayHello() {
     ResourceBundle messages = ResourceBundle.getBundle("MessagesBundle", locale);
     return messages.getString("greeting") + ", " +"+name+";
-    return messages.getString("greeting") + ", " + name.toUpperCase().
+  //   return messages.getString("greeting") + ", " + name.toUpperCase(). this line was deleted to resolve the conflict
 }
 
   public static void main(String[] args) {
